@@ -11,7 +11,8 @@ body {
   }
 
 .headerLogo{
-    
+    background-image: url("/images/back1.jpg");
+    background-color: #cccccc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,27 +23,17 @@ body {
     height: 250px;
     width: 250px;
 }
-.login{
-    
-    position: absolute;
-    top: 90px; 
-    right: 100px;
-    z-index: 999;
-    flex-direction: column;
-    align-items: center;
-
-}
-.login a{
+.search a{
     font-size: 19px;
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition: 0.3s ease;
 }
-.login a:hover{
+.search a:hover{
     color: #ff0000;
     font-size: 20px;
 }
-.login button{
+.search button{
     padding: 10px;
     background-color: #07212B;
     border: none;
@@ -52,7 +43,7 @@ body {
     cursor: pointer;
 
 }
-.login button:hover{
+.search button:hover{
     background-color: #ccc;
 }
 nav{
@@ -113,27 +104,7 @@ nav{
 .menu button:hover{
     background-color: #ccc;
 }
-.search{
-    display: flex;
-    align-items: center;
-    margin-right: 0;
-}
-.search form{
-    display: flex;
-    margin: 0;
-}
-.search input{
-    padding: 10px;
-    border: 1px solid #ddd;
-    outline: none;
-    border-radius: 5px;
-    margin-right: 10px;
-    font-size: 16px;
 
-}
-.search input:hover{
-    border: 1px solid #72a0d4;
-}
 .donate{
     padding: 10px;
     background-color: #334850;
@@ -152,17 +123,29 @@ nav{
     text-decoration: none;
     transition: 0.3s ease;
 }
-.search button{
+.search{
     padding: 10px;
-    background-color: #fff;
-    border: none;
+    background-color: #334850;
+    border: 0.5px;
     border-radius: 5px;
-    color: #333;
     font-size: 19px;
     cursor: pointer;
+
 }
-.search button:hover{
-    background-color: #ccc;
+.search i{
+    color: white;
+}
+.search:hover{
+    background-color: #11005a;
+    font-size: 21px;
+}
+.search a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.search a:hover{
+    color: white;
 }
 #image1{
     margin-top: 2px;
@@ -268,4 +251,23 @@ nav{
 }
 .wwsafari{
     border-radius: 20px;
+}
+.comment-boxes{
+    display: flex;
+    flex-direction: row;
+    margin:20px 20px 20px 20px;
+    padding:20px 20px 20px 20px;
+    justify-content: center;
+}
+.comment-box{
+    background-color: rgb(170, 170, 169);
+    border-radius: 100px;
+    margin:30px 30px 30px 30px;
+    padding:20px 10px 20px 10px;
+}
+.comment-box img{
+    border-radius: 50%;
+}
+.checked {
+    color: orange;
 }
