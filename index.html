@@ -3,7 +3,7 @@
 <head>
 
     <title>wildwaves</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/index.css">
     <script src="script.js"></script>
 
 </head>
@@ -19,9 +19,17 @@
         <nav>
             <div class="logo"> Wild<span>Waves</span></div>
             <ul class="menu">
-                <li><button><a href="#">Home</a></button></li>
+                <li><button><a href="index.html">Home</a></button></li>
                 <li><button><a href="#">Packages</a></button></li>
-                <li><button><a href="#">About Us</a></button></li>
+                <div class="dropdown">
+                    <button class="dropbtn"><span>About Us</span></button>
+                    <div class="dropdown-content">
+                      <a href="about.html">About Us</a>
+                      <a href="privacy.html">Privacy</a>
+                      <a href="terms.html">Terms</a>
+                    </div>
+                  </div>
+                  
                 <li><button><a href="#">Reservations</a></button></li>
                 <li><button><a href="#">Contact Us</a></button></li>
                 <li><button><a href="#">Events</a></button></li>
