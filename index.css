@@ -6,20 +6,61 @@
     
 }
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
   }
+
+.headerLogo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.headerLogo img{
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+.login{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login a{
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.login a:hover{
+    color: #ff0000;
+    font-size: 20px;
+}
+.login button{
+    padding: 10px;
+    background-color: #07212B;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.login button:hover{
+    background-color: #ccc;
+}
 nav{
+    
     width: 100%;
     height: 75px;
-    background-color: #fff;
-    color: black;
+    background-color: #07212B;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+    
 
 }
 .logo{
@@ -44,7 +85,7 @@ nav{
 }
 .menu li a {
     font-size: 19px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: 0.3s ease;
 
@@ -56,7 +97,7 @@ nav{
 }
 .menu button{
     padding: 10px;
-    background-color: #fff;
+    background-color: #07212B;
     border: none;
     border-radius: 5px;
     color: #333;
@@ -101,14 +142,10 @@ nav{
     background-color: #ccc;
 }
 #image1{
-    margin-top: 100px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    border-radius: 8px;
-    object-fit: cover;
+    margin-top: 2px;
+    width: 100%;
+    height: auto;
+   
 }
 .container {
     display: flex;
