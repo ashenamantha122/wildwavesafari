@@ -11,7 +11,7 @@ body {
   }
 
 .headerLogo{
-    background-image: url("/images/back1.jpg");
+    background-image: url("back1.jpg");
     background-color: #cccccc;
     display: flex;
     flex-direction: column;
